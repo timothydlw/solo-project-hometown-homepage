@@ -60,8 +60,8 @@ h2 {
 h3 {
     font-weight: bold;
     font-size: 24px;
-    padding-top: 39px;
-    padding-bottom: 56px;
+    margin-top: 39px;
+    margin-bottom: 56px;
 }
 
 .activities-pictures {
@@ -70,7 +70,7 @@ h3 {
 
 .activities-pictures img {
     border-radius: 50%;
-    margin: 0 82px 22px;
+    margin: 0 82px 0 83px;
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -78,9 +78,44 @@ h3 {
 
 .activities-pictures h4 {
     font-size: 16px;
-    margin: 0 41px 17px;
+    margin: 22px 41px 0 41px;
 }
 
 .activities-pictures p {
-    margin: 0 34px 38px;
+    margin: 17px 33px 38px 34px;
+}
+
+.guide {
+    background-color: #A8DADC;
+    width: 400px;
+    height: 294px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    color: #1D3557;
+}
+
+.guide img {
+    width: 180px;
+    height: 248px;
+    margin: 23px 7px 22px 13px;
+    border-radius: 10px;
+}
+
+.guide h3 {
+    font-size: 24px;
+    margin: 49px 4px 14px 0;
+}
+
+.guide h4 {
+    font-size: 16px;
+    margin: 0 13px 84px 0;
+}
+
+.guide p {
+    font-size: 16px;
+    margin: 0 11px 26px 0;
 }
