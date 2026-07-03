@@ -11,6 +11,7 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
@@ -18,8 +19,68 @@ img {
 }
 
 .hero {
-    background: url('images/torshov.jpg');
-    background-size: 720px 343px;
+    background-color: #1D3557;
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    min-height: 343px;
+    padding: 24px;
+
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /*text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+h1 {
+    background-color: #1D3557;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+h2 {
+    background-color: #457B9D;
+    padding: 7px 29px;
+    border-radius: 10px;
+}
+
+.activities {
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1D3557;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 39px;
+    padding-bottom: 56px;
+}
+
+.activities-pictures {
+    display: flex;
+}
+
+.activities-pictures img {
+    border-radius: 50%;
+    margin: 0 82px 22px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.activities-pictures h4 {
+    font-size: 16px;
+    margin: 0 41px 17px;
+}
+
+.activities-pictures p {
+    margin: 0 34px 38px;
 }
