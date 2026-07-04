@@ -11,15 +11,23 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(#76665d, #d4b7a7);
+    color: #f3f6f9;
 }
+
+
 
 img {
     width: 100px;
 }
 
+
+
+
+
 .hero {
-    background-color: #1D3557;
+    /*background-color: #3b1603;*/
     background-image: url("images/irving-skyline.webp");
     background-size: cover;
     background-position: center;
@@ -31,30 +39,31 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    /*color: white;*/
     /*text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);*/
     /*font-family: Arial, Helvetica, sans-serif;*/
 }
 
 h1 {
-    background-color: #1D3557;
+    background-color: #76665d;
     padding: 4px 12px;
     border-radius: 10px;
 }
 
 h2 {
-    background-color: #457B9D;
+    background-color: #76665d;
     padding: 7px 29px;
     border-radius: 10px;
 }
 
 .activities {
-    background-color: #F1FAEE;
+    /*background-color: #f9c68b;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #1D3557;
+    margin-top: 50px;
 }
 
 h3 {
@@ -66,6 +75,7 @@ h3 {
 
 .activities-pictures {
     display: flex;
+    margin-right: 50px;
 }
 
 .activities-pictures img {
@@ -74,6 +84,10 @@ h3 {
     width: 100px;
     height: 100px;
     object-fit: cover;
+}
+
+.activities-pictures img:hover {
+    transform: scale(1.1);
 }
 
 .activities-pictures h4 {
@@ -86,7 +100,7 @@ h3 {
 }
 
 .guide {
-    background-color: #A8DADC;
+    /*background-color: #d4b7a7;*/
     width: 400px;
     height: 294px;
     display: flex;
@@ -96,6 +110,7 @@ h3 {
     margin-bottom: 50px;
     border-radius: 10px;
     color: #1D3557;
+    /*text-shadow: 0 0 0 black;*/
 }
 
 .guide img {
@@ -118,4 +133,50 @@ h3 {
 .guide p {
     font-size: 16px;
     margin: 0 11px 26px 0;
+}
+
+
+.roboto-font-family {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.historical-pictures {
+    display: flex;
+    margin-left: 50px;
+}
+
+.historical-pictures img {
+    border-radius: 50%;
+    margin: 0 82px 0 83px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.historical-pictures img:hover {
+    transform: scale(1.1);
+}
+
+.historical-pictures h4 {
+    font-size: 16px;
+    margin: 22px 41px 0 41px;
+}
+
+.historical-pictures p {
+    margin: 17px 33px 38px 34px;
+}
+
+.historical {
+    /*background-color: #f9c68b;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #1D3557;
+    margin-top: 50px;
 }
