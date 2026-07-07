@@ -64,6 +64,7 @@ h2 {
     align-items: center;
     color: #1D3557;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 h3 {
@@ -179,4 +180,5 @@ h3 {
     align-items: center;
     color: #1D3557;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
